@@ -1,0 +1,57 @@
+Game
+ 曳 Core
+ 早 曳 GameManager
+ 早 曳 TurnManager
+ 早 曳 PhaseManager
+ 早 曳 PlayerController
+ 早 曲 VisibilityManager
+ 曳 Board
+ 早 曳 ChessBoard
+ 早 曳 BoardTile
+ 早 曳 MapData
+ 早 曲 TileEffectResolver
+ 曳 Pieces
+ 早 曳 ChessPiece
+ 早 曳 PawnPiece
+ 早 曳 RookPiece
+ 早 曳 KnightPiece
+ 早 曳 BishopPiece
+ 早 曳 QueenPiece
+ 早 曳 KingPiece
+ 早 曳 Data
+ 早 早 曲 ChessPieceData
+ 早 曲 Strategies
+ 早   曳 IChessMoveStrategy
+ 早   曳 PawnMoveStrategy
+ 早   曳 RookMoveStrategy
+ 早   曳 KnightMoveStrategy
+ 早   曳 BishopMoveStrategy
+ 早   曳 QueenMoveStrategy
+ 早   曲 KingMoveStrategy
+ 曳 Actions
+ 早 曳 PieceActionController
+ 早 曳 MoveResolver
+ 早 曳 AttackResolver
+ 早 曳 PushResolver
+ 早 曲 ActionCostResolver
+ 曳 Combat
+ 早 曳 DamageResolver
+ 早 曳 DeathResolver
+ 早 曳 PromotionResolver
+ 早 曲 BuffResolver
+ 曳 UI
+ 早 曳 BoardUI
+ 早 曳 PieceUI
+ 早 曳 TurnUI
+ 早 曳 GemUI
+ 早 曲 ActionLogUI
+ 曲 Data
+   曳 Enums
+   早 曳 PieceType
+   早 曳 PieceColor
+   早 曳 ActionType
+   早 曳 GamePhase
+   早 曲 TileType
+   曲 Map
+     曲 MapDefinition
+
